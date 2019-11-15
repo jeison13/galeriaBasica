@@ -12,7 +12,7 @@
 
     <header class="padre">
 
-        <section class="hijo">
+        <section id="lista" class="hijoLista">
           <p>despegableLista</p>
         </section>
 
@@ -42,6 +42,13 @@
   var titulo = document.getElementById('titulo');
   titulo.addEventListener("click", function(){
     alert("esta es una evaluación");
+  })
+}())
+
+(function(){
+  var titulo = document.getElementById('lista');
+  titulo.addEventListener("click", function(){
+
   })
 }())
 

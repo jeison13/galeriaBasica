@@ -5,10 +5,27 @@ body{
 .padre {
   display: flex;
   justify-content: center;
-  background-color: #e06b19;
+  background-color:  #424242;
+  border-radius: 2em;
 }
 .hijo {
   padding: 10px;
   margin: 10px;
   color: white;
+}
+
+.hijoLista {
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  display: inline-block;
+  background-color: #232220;
+  transition: 0.5s;
+  border-radius: 2em;
+}
+
+.hijoLista:hover{
+  transform: translateY(1em);
+  background-color: white;
+  color: black;
 }
