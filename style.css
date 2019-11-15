@@ -6,13 +6,11 @@
   height: 100px;
   width: 100%;
   background-color: coral;
+  
 }
 
-.cuerpoArticulo {
+.lista {
   background-color: white;
-  margin-top: 50px;
-  height: 500px;
-  width: 90%;
-  margin-left: 100px;
-
+  border-radius: 1em;
+  margin-top: 2em;
 }
