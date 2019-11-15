@@ -10,21 +10,44 @@
 
 <body class="negro">
 
-    <header class="cuerpoHeader">
+    <header class="padre">
 
-        <section class="lista">
+        <section class="hijo">
           <p>despegableLista</p>
         </section>
 
-        <section>
-          <p>titulo</p>
+        <section id="titulo" class="hijo">
+          <h1>Historia en 5 fotos</h1>
         </section>
 
-        <section>
+        <section class="hijo">
           <p>espacio</p>
         </section>
 
     </header>
+
+<!-- aui inicia el visor de imagen-->
+
+    <section>
+      <div class="">
+
+      </div>
+    </section>
+
+<!-- aca termina el visor y comiensa lo que es el carrusel -->
+
+<script type="text/javascript">
+
+(function(){
+  var titulo = document.getElementById('titulo');
+  titulo.addEventListener("click", function(){
+    alert("esta es una evaluación");
+  })
+}())
+
+</script>
+
+
 
 </body>
 </html>

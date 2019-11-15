@@ -1,16 +1,14 @@
-.coral {
-  background-color: coral;
+body{
+  background-color: #472446;
 }
 
-.cuerpoHeader {
-  height: 100px;
-  width: 100%;
-  background-color: coral;
-  
+.padre {
+  display: flex;
+  justify-content: center;
+  background-color: #e06b19;
 }
-
-.lista {
-  background-color: white;
-  border-radius: 1em;
-  margin-top: 2em;
+.hijo {
+  padding: 10px;
+  margin: 10px;
+  color: white;
 }
