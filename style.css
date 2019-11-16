@@ -1,19 +1,25 @@
 body{
-  background-color: #472446;
+  background-color: #ffffff;
 }
 
 .padre {
   display: flex;
   justify-content: center;
-  background-color:  #424242;
-  border-radius: 2em;
+  background-color:  #004242;
+  border-radius: 1em;
 }
 .hijo {
   padding: 10px;
   margin: 10px;
   color: white;
   font-family: sans-serif;
+
+
 }
+
+  .hijoBorde {
+    border: 4px #000;
+  }
 
 .hijoLista {
   padding: 10px;
@@ -44,7 +50,7 @@ list-style:none;
   text-decoration: none;
   padding: 10px 15px;
   display: block;
-  
+
 }
 
 .nav li a:hover {
